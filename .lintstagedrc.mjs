@@ -7,7 +7,7 @@ function buildEslintCommand(filenames) {
 }
 
 const config = {
-  "*.{js,jsx,ts,tsx}": [buildEslintCommand],
+  "*": [buildEslintCommand],
 };
 
 export default config;
